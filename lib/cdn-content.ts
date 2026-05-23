@@ -1,4 +1,4 @@
-const CDN_BASE_URL = process.env.NEXT_PUBLIC_CDN_BASE_URL;
+const CDN_BASE_URL = 'https://www.cdn.gromosome.com/main/data';
 
 const cdnBaseUrl = CDN_BASE_URL?.trim().replace(/\/$/, '');
 
