@@ -19,7 +19,7 @@ data/
 .env.development.local
 .env.test.local
 .env.production.local
-
+.wrangler/
 # Firebase
 .firebase/
 firebase-debug.log
