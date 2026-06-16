@@ -226,7 +226,7 @@ function PrincipleGridSection({ section }: { section: PrincipleGridSection }) {
 
 function FounderProfileSection({ section }: { section: FounderProfileSection }) {
   return (
-    <section className="mx-auto mt-16 max-w-7xl">
+    <section id="founder" className="mx-auto mt-16 max-w-7xl scroll-mt-24">
       <div className="card-surface overflow-hidden rounded-[2rem]">
         <div className="grid gap-0 lg:grid-cols-[0.8fr_1.2fr]">
           <div className="flex items-center justify-center p-6 sm:p-10">

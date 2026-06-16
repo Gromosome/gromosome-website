@@ -3,11 +3,24 @@ import { RenderSections, type PageSection } from '@/components/PageSections';
 import { contentUrls, getRemoteContent, type RemotePageContent } from '@/lib/cdn-content';
 
 const pageTitle = 'About Gromosome';
-const pageDescription = 'Gromosome is an AI-first software company building architectural products, domain-ready platforms, and scalable MVPs.';
+const founderName = 'Pressnave Kiruparaj';
+const pageDescription = `Gromosome, founded by ${founderName}, is an AI-first software company building architectural products, domain-ready platforms, and scalable MVPs.`;
 
 export const metadata: Metadata = {
   title: pageTitle,
   description: pageDescription,
+  authors: [{ name: founderName }],
+  creator: founderName,
+  keywords: [
+    'Gromosome',
+    founderName,
+    'Pressnave',
+    'Kiruparaj',
+    'AI-first software company',
+    'software architecture',
+    'domain-ready platforms',
+    'scalable MVPs'
+  ],
   alternates: {
     canonical: '/vision'
   },
